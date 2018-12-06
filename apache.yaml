@@ -1,0 +1,6 @@
+
+
+- name: iniciando a playbook de instalacao do apache
+  hosts: all
+  roles:
+   - apache
